@@ -4,10 +4,7 @@ title: 'BD Newbie: Hacking Linkedin Second Degree Connections'
 
 ## Retrieve 2nd Degree Connections for a Given User
 
-To have a better understanding of unfamiliar market as a BD Newbie, you may want to talk to experts in your professional network. If you just blindly ask your friends whom in their network you should reach out to, the result is usually not very fruitful, unless you have a short list. [Linkedin](http://www.linkedin.com) certainly does not make it any easier, by limiting 10 connections to be shown at a time. LinkedIn does not provide an API to allow you to list the 2nd degree connections of your network. Fortunately, 
-
-While LinkedIn's Official API does not allow you to retrieve 2nd degree connections for other users, [Ian Alexander](https://github.com/ianalexander/ianalexander/blob/master/content/blog/hacker-networking-hacking-the-linkedin-api.html) comes across a method to use Chrome's Developer Tools to uncover the "unoffical" browser/web API.
-
+To have a better understanding of unfamiliar market as a BD Newbie, you may want to talk to experts in your professional network. If you just blindly ask your friends whom in their network you should reach out to, the result is usually not very fruitful, unless you have a short list. [Linkedin](http://www.linkedin.com) certainly does not make it any easier, by limiting 10 connections to be shown at a time. LinkedIn does not provide an API to allow you to list the 2nd degree connections of your network. Fortunately, there is way to work around it. [Ian Alexander](https://github.com/ianalexander/ianalexander/blob/master/content/blog/hacker-networking-hacking-the-linkedin-api.html) comes across a method to use Chrome's Developer Tools to uncover the "unoffical" browser/web API.
 
 
 If you enable [Developer Tools](https://developer.chrome.com/devtools) Network tab, browse to your friend profile, and click on the connections, you will see a lot of requests being fired as the page is loaded. If you scroll to the bottom near your "Connections" section and click the "Next" button, you will see an interesting request fired:
