@@ -1,9 +1,6 @@
 ---
 title: 'BD Newbie: Hacking Linkedin Second Degree Connections'
-layout: post
 ---
-
-When I was hunting for a new job I would repeatedly think to myself "I need to find a way to get introduced to more people". LinkedIn's API doesn't allow you to list the 2nd degree connections of your network, but through a few hacks we can get around this to get lists of people we can be introduced to.
 
 To have a better understanding of unfamiliar market as a BD Newbie, you may want to talk to experts in your professional network. If you just blindly ask your friends whom in their network you should reach out to, the result is usually not very fruitful, unless you have a short list. [Linkedin](http://www.linkedin.com) certainly does not make it any easier, by limiting 10 connections to be shown at a time. LinkedIn does not provide an API to allow you to list the 2nd degree connections of your network. Fortunately, 
 
